@@ -18,7 +18,7 @@ public class VideoService
   
   public JSONObject getVideo(String shortenUrlAlias) throws java.io.IOException
   {
-    String url = "https://aravindu.com/xtremand-rest/videos/video-by-shortenerurlalias?shortenUrlAlias=" + shortenUrlAlias;
+    String url = "https://xamp.io/xtremand-rest/videos/video-by-shortenerurlalias?shortenUrlAlias=" + shortenUrlAlias;
     HttpClient client = HttpClientBuilder.create().build();
     HttpGet request = new HttpGet(url);
     request.addHeader("User-Agent", "Mozilla/5.0");
