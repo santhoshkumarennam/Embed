@@ -19,7 +19,7 @@
 <body>
 	Redirecting...
 <script type="text/javascript">
-	window.location.href = "https://xamplify.io/embed/${video.shortenerURLAlias}";
+	window.location.href = "https://xamplify.io/share/${video.shortenerURLAlias}";
 </script>
 </body>
 </html>
